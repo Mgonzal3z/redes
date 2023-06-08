@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Hoja de Vida</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      overflow-y: scroll;
+      background: linear-gradient(-45deg, #FF6F61, #6B5B95, #88B04B);
+      background-size: 400% 400%;
+      animation: gradientAnimation 15s ease infinite;
+    }
+
+    @keyframes gradientAnimation {
+      0% {background-position: 0% 50%;}
+      50% {background-position: 100% 50%;}
+      100% {background-position: 0% 50%;}
+    }
+
+    .container {
+      width: 600px;
+      margin: 0 auto;
+      padding: 40px;
+      background-color: rgba(255, 255, 255, 0.9);
+      border-radius: 10px;
+      box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.3);
+      color: #333;
+    }
+
+    h1 {
+      font-size: 32px;
+      margin-bottom: 20px;
+      color: #333;
+    }
+
+    p {
+      font-size: 18px;
+      margin-bottom: 10px;
+      color: #333;
+    }
+
+    h2 {
+      font-size: 24px;
+      margin-top: 40px;
+      margin-bottom: 10px;
+      color: #333;
+    }
+
+    ul {
+      margin: 0;
+      padding: 0;
+      list-style-type: none;
+      display: flex;
+      justify-content: center;
+      color: #333;
+    }
+
+    li {
+      margin: 0 10px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Hoja de Vida</h1>
+
+    <p><strong>Nombre:</strong> Miguel Angel Gonzalez Vargas</p>
+    <p><strong>Fecha de nacimiento:</strong> 26 de diciembre de 2001</p>
+    <p><strong>Ubicación:</strong> Bogota DC, Suba</p>
+    <p><strong>Teléfono:</strong> +57 3194325282</p>
+    <p><strong>Email:</strong> upgrade_tech@hotmail.com</p>
+
+    <h2>Experiencia Laboral</h2>
+    <p><strong>Proximamente</strong></p>
+    <p><em>Cargo:</em> Programador Junior</p>
+    <p><em>Periodo:</em> Ya veremos</p>
+
+    <h2>Educación</h2>
+    <p><strong>Universidad El Bosque</strong></p>
+    <p><em>Título:</em> Ingeniero de sistemas</p>
+    <p><em>Periodo:</em> Agosto 2020-2 - Diciembre 2024-2</p>
+
+    <h2>Habilidades</h2>
+    <ul>
+      <li>Java</li>
+      <li>JS</li>
+      <li>Python</li>
+      <li>Git</li>
+      <li>MySQL</li>
+      <li>PostgreSQL</li>
+    </ul>
+    <h2>Idiomas</h2>
+    <ul>
+      <li>Inglés - Nivel Avanzado</li>
+      <li>Español - Lengua materna</li>
+      <li>Francés - Nivel Intermedio</li>
+    </ul>
+  </div>
+</body>
+</html>
